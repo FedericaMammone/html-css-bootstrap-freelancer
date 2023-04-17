@@ -1,6 +1,6 @@
-header {
+ header nav {
     background-color: #2C3E50;
-    height: 100px;
+   
     color: white;
 }
 
@@ -9,25 +9,64 @@ li {
     margin-left: 20px;
 }
 
-[class*="col-"] {
-    min-height: 100px;
-    background-color: violet;
-    border: solid 2px white;
+body {
+    margin: 0 auto;
 }
 
+/* [class*="col-"] {
+    min-height: 100px;
+    background-color: pink;
+    border: solid 2px white;
+} */
+
+/* jumbo */
 #jumbo {
-    background-color: green;
-    height: 250px;
+    background-color: #1ABC9C;
+    min-height: 250px;
     text-align: center;
     margin-bottom: 50px;
+    color: white;
 }
+
+.line{
+    border: solid 3px white;
+}
+
+.line.black {
+    border-color: black;
+}
+
+.container-star {
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 40px;
+}
+
+#jumbo img {
+    height: 150px;
+}
+
+.black {
+    color: black;
+}
+
+/* about */
 
 .about {
     min-height: 300px;
-    background-color: green;
+    background-color: #1ABC9C;
     text-align: center;
 }
 
+i {
+    font-size: 50px;
+    color: black;
+}
+
+/* contact
+ */
 .contact {
     margin-bottom: 50px;
 }
@@ -39,18 +78,38 @@ li {
 
 .container-form {
     width: 70%;
-    background-color: aqua;
+    
     margin: 0 auto;
 }
 
+input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    color: #2C3E50;
+}
+
+textarea {
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.btn {
+    background-color: #1ABC9C;
+}
+
+/* footer */
+
 .foot {
-    background-color: grey;
+    background-color: #3A546D;
+    color: white;
     
 }
 
 .footer-foot {
-    height: 50px;
-    background-color: black;
+    height: 100px;
+    background-color: #2C3E50;
     color: white;
     text-align: center;
 }
