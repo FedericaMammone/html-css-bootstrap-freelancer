@@ -1,0 +1,50 @@
+header {
+    background-color: blue;
+    height: 100px;
+}
+
+[class*="col-"] {
+    min-height: 100px;
+    background-color: violet;
+    border: solid 2px white;
+}
+
+#jumbo {
+    background-color: green;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about {
+    min-height: 300px;
+    background-color: green;
+    text-align: center;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.my-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container-form {
+    width: 70%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.foot {
+    background-color: grey;
+    
+}
+
+.footer-foot {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
